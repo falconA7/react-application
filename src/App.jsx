@@ -1,5 +1,7 @@
 import {useState} from "react";
 import { ColoredMessage } from "./components/ColoredMessages";
+import {CssModules} from "./components/CssModules";
+
 
 export default function App() {
   const [num,setNum] = useState(0);
